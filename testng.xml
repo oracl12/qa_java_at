@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+    <test name="First test class">
+        <parameter name="a" value="1"/>
+        <parameter name="b" value="1"/>
+        <classes>
+            <class name="task8.Task8"/>
+        </classes>
+    </test>
+</suite>
