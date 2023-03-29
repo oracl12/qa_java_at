@@ -11,6 +11,7 @@ import java.util.Date;
 //        name varchar(255),
 //        birthDate DATE,
 //        addressId int,
+//        PRIMARY KEY(id),
 //        FOREIGN KEY (addressId) REFERENCES address(id)
 //        );
 
