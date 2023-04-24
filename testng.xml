@@ -8,4 +8,11 @@
             <class name="task8.Task8"/>
         </classes>
     </test>
+    <listeners>
+        <listener class-name="task13.CustomTestListener">
+        <test name="with exception">
+            <classes><class name="task13.TestCases"></class></classes>
+        </test>
+        </listener>
+    </listeners>
 </suite>
